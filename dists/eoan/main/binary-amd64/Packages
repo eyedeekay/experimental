@@ -1,3 +1,51 @@
+Package: apt-transport-i2p
+Version: 0.2
+Architecture: amd64
+Maintainer: idk <hankhill19580@gmail.com>
+Installed-Size: 257
+Depends: libc6 (>= 2.3), libgcc-s1 (>= 3.3.1), libgo14, i2p | i2pd
+Built-Using: golang-github-eyedeekay-gosam (= 0.3.2.1)
+Section: devel
+Priority: optional
+Homepage: https://github.com/eyedeekay/apt-transport-i2p
+Description: An apt transport method enabling i2p using the SAM bridge.
+ i2p transport for apt This is a simple transport for downloading debian
+ packages from a repository over i2p. It uses the SAM bridge and is
+ pretty much just a modified version of diocles/apt-tranport-http-golang
+ (https://github.com/diocles/apt-transport-http-golang), a plain HTTP
+ transport for apt, and by modified I mean like, a couple dozen lines. This
+ way, it uses an ephemeral destination instead of the HTTP proxy which
+ could be associated with your other traffic.
+Size: 51928
+SHA512: 22cbda10a52db752ba329cd396841aae71f8f9254fd1048b1f5df5e716d578b870460cd0fb6757f98c49ed4bd48651ae964ee979cf10d6409638a085695c24d6
+SHA256: 9d17725919ad83c18c0664a0249ace0379e93e50ea9ae96c4a860fb7920c8e3e
+SHA1: 42dc937d22878cf075edad8248f4c534bf8b7d96
+MD5sum: 050aa340e37c230c7ef288c4ced01e09
+Filename: pool/main/a/apt-transport-i2p/apt-transport-i2p_0.2_amd64.deb
+
+Package: apt-transport-i2phttp
+Version: 0.2
+Architecture: amd64
+Maintainer: idk <hankhill19580@gmail.com>
+Installed-Size: 81
+Depends: libc6 (>= 2.3), libgcc-s1 (>= 3.3.1), libgo14
+Section: devel
+Priority: optional
+Homepage: https://github.com/eyedeekay/apt-transport-i2phttp
+Description: An apt transport for i2p using the built-in HTTP proxy
+ apt-transport-i2phttp, HTTP-based I2P Transport for apt This
+ is a simple transport for downloading debian packages from a
+ repository over i2p. It uses the built-in HTTP proxy or one you
+ configure. It's a modified version of diocles/apt-tranport-http-golang
+ (https://github.com/diocles/apt-transport-http-golang), a plain HTTP
+ Transport for apt.
+Size: 19656
+MD5sum: 2b623942a35a1ae2774bb987b32adf0e
+SHA512: 8782a3ad34e1e9b29367b7c746dcb030dbff409c7830ff6f0d62aacac6991b6a7c4c37d616274240336845702db854a4ecc8447a101c822b2b9ad92afa991122
+SHA256: 8717086f7254844cfb60e1dc46e42fe71560cd730ffbea8b15f95595cccbd71b
+SHA1: c8058d68dffc2efeb9cc6ebc0e7519dffe822df6
+Filename: pool/main/a/apt-transport-i2phttp/apt-transport-i2phttp_0.2_amd64.deb
+
 Package: i2psetproxy.js
 Version: 0.57-1
 Architecture: amd64
@@ -13,9 +61,9 @@ Description: Plugin for configuring i2p in Firefox and Chromium
  their own anonymity set, like TAILS users or Brave users do on
  the Tor network.
 Size: 5755400
-SHA256: 6d04bcdcd7dd28d0f7f8eacc6542da79127b63efcdd4e60a2467aba8e23d2949
 SHA1: 72c1a94658a722f14e87f7bb94fee40f3770d3ff
 MD5sum: 1fd67c1065ab75db4422058536d9b46e
 SHA512: be2583cc7614f3741648d0726ca4b28589731ad2182d1dd566facf6cada3340fa56d21bbcb025f788eb396cb8655ad9b27b420d61417f0cef676c95c046c01cb
+SHA256: 6d04bcdcd7dd28d0f7f8eacc6542da79127b63efcdd4e60a2467aba8e23d2949
 Filename: pool/main/i/i2psetproxy.js/i2psetproxy.js_0.57-1_amd64.deb
 
