@@ -17,10 +17,10 @@ Description: An apt transport method enabling i2p using the SAM bridge.
  way, it uses an ephemeral destination instead of the HTTP proxy which
  could be associated with your other traffic.
 Size: 51928
+SHA256: 9d17725919ad83c18c0664a0249ace0379e93e50ea9ae96c4a860fb7920c8e3e
 SHA1: 42dc937d22878cf075edad8248f4c534bf8b7d96
 MD5sum: 050aa340e37c230c7ef288c4ced01e09
 SHA512: 22cbda10a52db752ba329cd396841aae71f8f9254fd1048b1f5df5e716d578b870460cd0fb6757f98c49ed4bd48651ae964ee979cf10d6409638a085695c24d6
-SHA256: 9d17725919ad83c18c0664a0249ace0379e93e50ea9ae96c4a860fb7920c8e3e
 Filename: pool/main/a/apt-transport-i2p/apt-transport-i2p_0.2_amd64.deb
 
 Package: apt-transport-i2phttp
@@ -40,10 +40,10 @@ Description: An apt transport for i2p using the built-in HTTP proxy
  (https://github.com/diocles/apt-transport-http-golang), a plain HTTP
  Transport for apt.
 Size: 19656
-SHA1: c8058d68dffc2efeb9cc6ebc0e7519dffe822df6
-MD5sum: 2b623942a35a1ae2774bb987b32adf0e
 SHA512: 8782a3ad34e1e9b29367b7c746dcb030dbff409c7830ff6f0d62aacac6991b6a7c4c37d616274240336845702db854a4ecc8447a101c822b2b9ad92afa991122
 SHA256: 8717086f7254844cfb60e1dc46e42fe71560cd730ffbea8b15f95595cccbd71b
+SHA1: c8058d68dffc2efeb9cc6ebc0e7519dffe822df6
+MD5sum: 2b623942a35a1ae2774bb987b32adf0e
 Filename: pool/main/a/apt-transport-i2phttp/apt-transport-i2phttp_0.2_amd64.deb
 
 Package: i2psetproxy.js
@@ -61,17 +61,17 @@ Description: Plugin for configuring i2p in Firefox and Chromium
  their own anonymity set, like TAILS users or Brave users do on
  the Tor network.
 Size: 5755400
+SHA1: 72c1a94658a722f14e87f7bb94fee40f3770d3ff
 MD5sum: 1fd67c1065ab75db4422058536d9b46e
 SHA512: be2583cc7614f3741648d0726ca4b28589731ad2182d1dd566facf6cada3340fa56d21bbcb025f788eb396cb8655ad9b27b420d61417f0cef676c95c046c01cb
 SHA256: 6d04bcdcd7dd28d0f7f8eacc6542da79127b63efcdd4e60a2467aba8e23d2949
-SHA1: 72c1a94658a722f14e87f7bb94fee40f3770d3ff
 Filename: pool/main/i/i2psetproxy.js/i2psetproxy.js_0.57-1_amd64.deb
 
 Package: i2psetproxy.js
 Version: 0.59-1
 Architecture: amd64
 Maintainer: idk <hankhill19580@gmail.com>
-Installed-Size: 6284
+Installed-Size: 11049
 Section: unknown
 Priority: optional
 Multi-Arch: foreign
@@ -81,10 +81,10 @@ Description: Plugin for configuring i2p in Firefox and Chromium
  Debian operating system to use I2P. i2psetproxy.js users form
  their own anonymity set, like TAILS users or Brave users do on
  the Tor network.
-Size: 6121928
-SHA512: 4dc59d641ec27bf5b2cedca45db16c057ef34bcfacdd8bfee46cfe666091606f36edccd09ef3028af554bd7ba5fd65b07d06ab66c718b9df5557a22519fe948c
-SHA256: f46366d908e680045c14945ff87966d509d9cbaf8b65871131e59e20807368a0
-SHA1: f15c8214f552db1a897be9dbce9ceb475f0d6b79
-MD5sum: 54343e8d87d95b93296ced403f75371e
+Size: 6767580
+SHA256: e649bda359d671c197f51aae45516d21885236ccf526be37e72062fc1dbc8b04
+SHA1: 2b4039fa58a29a1afdd09057956765a84db16ac2
+MD5sum: eea175f1955bff6abb9d5d397d5fcfe5
+SHA512: bbbdd3920554960482d3d1bc7bb5a341fcae516f17fc2034443c722c80c4c79d2793c8d011192f826fde2f61cb3ace79bc65fba1023bde152139c702faf4485b
 Filename: pool/main/i/i2psetproxy.js/i2psetproxy.js_0.59-1_amd64.deb
 
