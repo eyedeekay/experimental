@@ -34,9 +34,9 @@ Description: Go library for the I2P SAMv3.0 bridge,
  (https://geti2p.net/en/docs/api/samv3) bridge, used to build
  anonymous/pseudonymous end-to-end encrypted sockets.
 Size: 16720
-SHA1: 2ce6958272d2f4377c0a7c9084c871f7d42c865a
 MD5sum: a53bb357d3318b55fc43002f018e9b38
 SHA512: 72504246adac69d061665c0fadeeb7bf8ab0eb940f9d3ac54994b5613bec957b1875a1bf343445e4691a4e77823b25806c5087ef2a07f4e1e1e26d534b13b112
 SHA256: 47af557764dedb3440a981806c227f55069960da0b8c68c11168f5842d90841b
+SHA1: 2ce6958272d2f4377c0a7c9084c871f7d42c865a
 Filename: pool/main/g/golang-github-eyedeekay-sam3-dev/golang-github-eyedeekay-sam3-dev_0.3.2.2_all.deb
 

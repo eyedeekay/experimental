@@ -17,10 +17,10 @@ Description: An apt transport method enabling i2p using the SAM bridge.
  way, it uses an ephemeral destination instead of the HTTP proxy which
  could be associated with your other traffic.
 Size: 51928
+SHA512: 22cbda10a52db752ba329cd396841aae71f8f9254fd1048b1f5df5e716d578b870460cd0fb6757f98c49ed4bd48651ae964ee979cf10d6409638a085695c24d6
 SHA256: 9d17725919ad83c18c0664a0249ace0379e93e50ea9ae96c4a860fb7920c8e3e
 SHA1: 42dc937d22878cf075edad8248f4c534bf8b7d96
 MD5sum: 050aa340e37c230c7ef288c4ced01e09
-SHA512: 22cbda10a52db752ba329cd396841aae71f8f9254fd1048b1f5df5e716d578b870460cd0fb6757f98c49ed4bd48651ae964ee979cf10d6409638a085695c24d6
 Filename: pool/main/a/apt-transport-i2p/apt-transport-i2p_0.2_amd64.deb
 
 Package: apt-transport-i2phttp
@@ -61,17 +61,17 @@ Description: Plugin for configuring i2p in Firefox and Chromium
  their own anonymity set, like TAILS users or Brave users do on
  the Tor network.
 Size: 5755400
-SHA1: 72c1a94658a722f14e87f7bb94fee40f3770d3ff
-MD5sum: 1fd67c1065ab75db4422058536d9b46e
 SHA512: be2583cc7614f3741648d0726ca4b28589731ad2182d1dd566facf6cada3340fa56d21bbcb025f788eb396cb8655ad9b27b420d61417f0cef676c95c046c01cb
 SHA256: 6d04bcdcd7dd28d0f7f8eacc6542da79127b63efcdd4e60a2467aba8e23d2949
+SHA1: 72c1a94658a722f14e87f7bb94fee40f3770d3ff
+MD5sum: 1fd67c1065ab75db4422058536d9b46e
 Filename: pool/main/i/i2psetproxy.js/i2psetproxy.js_0.57-1_amd64.deb
 
 Package: i2psetproxy.js
 Version: 0.59-1
 Architecture: amd64
 Maintainer: idk <hankhill19580@gmail.com>
-Installed-Size: 11049
+Installed-Size: 11441
 Section: unknown
 Priority: optional
 Multi-Arch: foreign
@@ -81,10 +81,10 @@ Description: Plugin for configuring i2p in Firefox and Chromium
  Debian operating system to use I2P. i2psetproxy.js users form
  their own anonymity set, like TAILS users or Brave users do on
  the Tor network.
-Size: 6767580
-SHA256: e649bda359d671c197f51aae45516d21885236ccf526be37e72062fc1dbc8b04
-SHA1: 2b4039fa58a29a1afdd09057956765a84db16ac2
-MD5sum: eea175f1955bff6abb9d5d397d5fcfe5
-SHA512: bbbdd3920554960482d3d1bc7bb5a341fcae516f17fc2034443c722c80c4c79d2793c8d011192f826fde2f61cb3ace79bc65fba1023bde152139c702faf4485b
+Size: 6525744
+SHA1: f80bd4c467497334b709cff67029d1ce70874849
+MD5sum: 251b51bfa9afece687cac7aee6ce85b6
+SHA512: 046732a6a67431e68e637fdf6734817c17a2c480f4f137e72248b231caab4781c2d795c21958336ec4f3ff58f48a7fa7d6c049b9a58359244abd9d0b46563295
+SHA256: 23a1d1e3ee5b1b4211a1b5b4eea1d37eaeebb7c4c6f6c062ae836dcbbd6cade3
 Filename: pool/main/i/i2psetproxy.js/i2psetproxy.js_0.59-1_amd64.deb
 
